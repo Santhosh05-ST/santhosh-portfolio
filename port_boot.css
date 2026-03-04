@@ -55,9 +55,9 @@
 
 
 .hero-img img {
-  width: 380px;
+   width: 380px; 
   border-radius: 50%;
-  /* border: 6px solid #00f7ff; */
+   border: 6px solid #00f7ff; 
   
   animation: floatImage 4s ease-in-out infinite;
 }
@@ -120,6 +120,7 @@
     text-align: center;
   }
 }
+
 
 /* about */
 .about{
@@ -198,11 +199,9 @@
     .edu-box:hover{
     transform: translateX(8px);
     transform: scale(1.1);
+} 
 }
-    
 
-   
-}
 /* intern */
 .internship{
     padding: 20px 10%;
@@ -277,6 +276,7 @@
         align-items: center;
     }
 }
+
 /* certificate */
 .certificate{
     padding: 80px 10%;
@@ -348,6 +348,7 @@
         align-items: center;
     }
 }
+
 /* skill */
 .skills{
     padding: 80px 10%;
@@ -391,6 +392,7 @@
         align-items: center;
     }
 }
+
  /* contact */
 .contact{
     padding: 80px 10%;
@@ -453,4 +455,35 @@
     .input-box{
         flex-direction: column;
     }
+}
+
+@media (max-width: 375px) {
+
+  #hero {
+    padding: 40px 5%;
+  }
+
+  .hero-img img {
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .hero-content h1 {
+    font-size: 32px;
+  }
+
+  .hero-content h3 {
+    font-size: 18px;
+  }
+
+  .hero-content h4 {
+    font-size: 16px;
+  }
+
+  .internship-box,
+  .certificate-box,
+  .skill-box {
+    width: 100%;
+  }
+
 }
