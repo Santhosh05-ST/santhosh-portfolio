@@ -397,6 +397,7 @@
 .contact{
     padding: 80px 10%;
     background: #323946; 
+    color: white;
 }
 
 .contact-container{
@@ -429,7 +430,7 @@
     background: #1f242d; 
     border: none;
     border-radius: 8px;
-   
+     color: white;
     font-size: 14px;
 }
 
